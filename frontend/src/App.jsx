@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import { v4 as uuid } from "uuid";
 
-const socket = io("http://localhost:5000");
+const socket = io("gorgeous-axolotl-a16ad6.netlify.app");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
@@ -202,3 +202,4 @@ const App = () => {
 };
 
 export default App;
+
