@@ -8,7 +8,7 @@ const app = express();
 
 const server = http.createServer(app);
 
-const url = `https://render-hosting-se2b.onrender.com`;
+const url = `gorgeous-axolotl-a16ad6.netlify.app`;
 const interval = 30000;
 
 function reloadWebsite() {
@@ -144,4 +144,5 @@ app.get("*", (req, res) => {
 server.listen(port, () => {
   console.log("server is working on port 5000");
 });
+
 
